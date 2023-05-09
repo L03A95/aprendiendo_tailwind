@@ -1,7 +1,7 @@
 
 {
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build -i src/styles.css -o public/output.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
